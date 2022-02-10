@@ -17,14 +17,22 @@
     <header>
 
         <!--NAV BAR-->
-        <nav class="container-fluid nav-bar">
+        <nav>
 
-            <div class="row justify-content-between">
+            <div class="container-fluid nav-bar container-sm container-lg">
 
-                <div class="col-11 p-3">START BOOTSTRAP</div>
+                <div class="row justify-content-between">
 
-                <div class="col-1 p-3">
-                    <div class="quadratino"></div>
+                    <div class="col-11 p-3 col-sm-6 col-lg-6">START BOOTSTRAP</div>
+
+                    <div class="col-1 p-3 d-block d-sm-none">
+                        <div class="quadratino"></div>
+                    </div>
+
+                    <div class="col-1 p-3 d-none d-sm-block">PORTFOLIO</div>
+                    <div class="col-1 p-3 d-none d-sm-block">ABOUT</div>
+                    <div class="col-1 p-3 d-none d-sm-block">CONTACT</div>
+
                 </div>
 
             </div>
@@ -140,7 +148,7 @@
 
         <section class="main-section-2">
 
-            <div class="container-fluid section-2 container-sm container-lg">
+            <div class="container-fluid container-sm container-lg">
 
                 <div class="row justify-content-center mt-2">
 
@@ -278,35 +286,27 @@
     <!--FOOTER-->
     <footer>
 
-
+        <section class="footer-section-1">
         <!--FOOTER TOP-->
-        <div class="container-fluid footer-top">
+        <div class="container-fluid footer-top container-sm container-lg">
 
             <div class="row justify-content-center">
 
-                <div class="col-8 mt-5">
+                <div class="col-8 mt-5 col-sm-4 col-lg-4">
 
                     <div class="location">LOCATION</div>
                     <div class="coordinate">2215 John Daniel Drive Clark, MO 54243</div>
 
                 </div>
 
-            </div>
-
-            <div class="row justify-content-center mt-5">
-
-                <div class="col-6">
+                <div class="col-6 mt-4 col-sm-4 mt-sm-5 col-lg-4">
 
                     <div class="around-web">AROUND THE WEB</div>
                     <div class="icons">icon icon icon icon </div>
 
                 </div>
 
-            </div>
-
-            <div class="row justify-content-center mt-5">
-
-                <div class="col-10 mb-5">
+                <div class="col-10 mt-4 mb-5 col-sm-4 mt-sm-5 col-lg-4">
 
                     <div class="around-web">ABOUT FREELANCER</div>
                     <div class="icons">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consectetur vitae  </div>
@@ -315,9 +315,11 @@
 
             </div>
 
+            
+
         </div>
 
-
+        </section>
         <!--FOOTER BOTTOM-->
         <div class="container-fluid footer-bottom">
 
