@@ -137,3 +137,13 @@ body {
 .location , .coordinate , .around-web , .icons {
     text-align: center;
 }
+
+/*Footer bottom*/
+
+.footer-bottom {
+    background-color: rgb(24, 24, 51);
+}
+
+.copyright {
+    text-align: center;
+}
