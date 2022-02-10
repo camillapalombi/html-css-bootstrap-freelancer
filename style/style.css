@@ -35,28 +35,28 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*MAIN*/
+
+.section-1 {
+    background-color: white;
+}
+
+.portfolio {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.star-blue {
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img_home {
+    background-color: rgb(110, 38, 38);
+}
 
 
 
