@@ -5,7 +5,7 @@ body {
     font-size: 16px;
 }
 
-.nav-bar {
+nav {
     background-color: rgb(25, 25, 54);
 }
 
@@ -89,7 +89,7 @@ body {
 
 /*Section 2*/
 
-.section-2 {
+.main-section-2 {
     background-color: rgb(93, 223, 147);
 }
 
@@ -130,7 +130,7 @@ body {
 
 /*Footer top*/
 
-.footer-top {
+.footer-section-1 {
     background-color: rgb(78, 78, 114);
 }
 
@@ -146,8 +146,4 @@ body {
 
 .copyright {
     text-align: center;
-}
-
-.main-section-2 {
-    background-color: rgb(93, 223, 147);
 }
