@@ -126,33 +126,14 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*FOOTER*/
+
+/*Footer top*/
+
+.footer-top {
+    background-color: rgb(78, 78, 114);
+}
+
+.location , .coordinate , .around-web , .icons {
+    text-align: center;
+}
