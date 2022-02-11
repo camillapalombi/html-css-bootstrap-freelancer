@@ -44,18 +44,12 @@ h1 , h2 , h3 {
 
 /*Section 1*/
 
-.section-1 {
+.main-section-1 {
     background-color: white;
 }
 
 h2 {
     color: rgb(24, 24, 24);
-}
-
-.star-blue {
-    color: blue;
-    
-    font-size: 25px;
 }
 
 .short_line-blue {
@@ -68,10 +62,29 @@ h2 {
 
 .main_images {
     width: 100%;
+    position: relative;
 }
 
+.hover_col:hover .main_images {
+    filter: brightness(0.3);
+}
 
+.fa-plus {
+    font-size: 80px;
+}
 
+.icon_container {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.hover_col:hover .icon_container {
+    display: block;
+}
 
 
 /*Section 2*/
@@ -94,19 +107,6 @@ h2 {
 
 .section-3 {
     background-color: white;
-}
-
-.contact {
-    color: black;
-}
-
-.personal-info {
-    color: blue;
-    font-size: 18px;
-}
-
-.send {
-    color: blue;
 }
 
 .textarea {
@@ -132,10 +132,6 @@ h2 {
 
 .footer-section-1 {
     background-color: rgba(58,84,109,255);
-}
-
-.location , .coordinate , .around-web , .icons {
-    text-align: center;
 }
 
 /*Footer bottom*/
