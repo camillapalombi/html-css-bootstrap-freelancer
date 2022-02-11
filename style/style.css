@@ -1,4 +1,5 @@
 /*HEADER*/
+
 body {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -38,11 +39,6 @@ h1 , h2 , h3 {
 }
 
 
-
-
-
-
-
 /*MAIN*/
 
 /*Section 1*/
@@ -59,6 +55,18 @@ h2 {
     color: blue;
     
     font-size: 25px;
+}
+
+.short_line-blue {
+    background-color: rgb(8, 8, 37);
+}
+
+.fa-star-blue {
+    color: rgb(8, 8, 37);
+}
+
+.main_images {
+    width: 100%;
 }
 
 
