@@ -134,6 +134,32 @@ h2 {
     background-color: rgba(58,84,109,255);
 }
 
+.fa-brands {
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.fa-facebook-f , .fa-linkedin-in  {
+    padding: 0.8em 1em;
+}
+
+.fa-google-plus-g {
+    padding: 0.8em;
+}
+
+.fa-twitter {
+    padding: 0.8em 0.9em;
+}
+
+.footer-section-1 a {
+    color: white;
+}
+
+.footer-top span {
+    color: rgba(26,188,156,255);
+}
+
 /*Footer bottom*/
 
 .footer-bottom {
