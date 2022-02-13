@@ -6,8 +6,20 @@ body {
     font-size: 18px;
 }
 
-nav {
+.navbar {
     background-color: rgba(44,62,80,255);
+}
+
+.nav-link {
+    font-size: 15px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: green;
 }
 
 .header-start {
