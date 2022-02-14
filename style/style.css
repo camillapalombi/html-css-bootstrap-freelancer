@@ -19,6 +19,7 @@ body {
 }
 
 .nav-link:hover {
+    color: none;
     color: green;
 }
 
@@ -28,10 +29,6 @@ body {
 
 .img_avatar {
     width: 220px;
-}
-
-h1 , h2 , h3 {
-    font-weight: bold;
 }
 
 .short_line {
@@ -74,29 +71,41 @@ h2 {
 
 .main_images {
     width: 100%;
-    position: relative;
 }
 
-.hover_col:hover .main_images {
-    filter: brightness(0.3);
+.card_portfolio {
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
 }
 
-.fa-plus {
-    font-size: 80px;
-}
-
-.icon_container {
-    width: 50%;
+.card_portfolio::after {
+	content: "+";
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    display: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	font-family: bootstrap-icons;
+	font-size: 8rem;
+	font-weight: bold;
+	color: transparent;
+	background-color: rgba(26,188,156,0);
+	transition: all .4s;
 }
 
-.hover_col:hover .icon_container {
-    display: block;
+.card_portfolio:hover {
+	cursor: pointer;
 }
+
+.card_portfolio:hover::after {
+	color: white;
+	background-color: rgba(26,188,156,0.7);
+}
+
 
 
 /*Section 2*/
@@ -135,6 +144,7 @@ h2 {
 
 .send_color {
     background-color: rgba(26,188,156,255);
+    border-color: rgba(26,188,156,255);
 }
 
 
